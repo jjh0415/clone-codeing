@@ -1,0 +1,23 @@
+body{
+    margin: 0%;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.nav_logo i{
+    color: red;
+}
+
+.nav_logo a, .nav_icon{
+    color: white;
+}
+

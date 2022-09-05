@@ -30,9 +30,19 @@ a {
 .vedioinfo_m{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    color: gray;
 }
 
 .vedioinfo_m_nametak{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
+
+.vedioinfo_m a{
+    position: relative;
+    right: 10px;
+    color: gray;
+}
+

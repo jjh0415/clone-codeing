@@ -21,3 +21,18 @@ a {
     color: white;
 }
 
+.vedioinfo_icon{
+    display: flex;
+    justify-content: space-evenly;
+    color: gray;
+}
+
+.vedioinfo_m{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vedioinfo_m_nametak{
+    display: flex;
+    align-items: center;
+}

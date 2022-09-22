@@ -4,7 +4,7 @@
 
 'use strict';
 
-//2. variable
+//2. variable , rw(read, write)
 //let(added in ES6 -> javascript 문법)
 {
     let name = 'ellie';
@@ -18,14 +18,21 @@ console.log(name);
 // var hoisting (move delaration from bottom to top)
 // has no block scope
 
-//3. constants
-//favor immutable data type always for a few reasons
-// - security
-// - thread safety
-// - reduce human mistakes
+//3. constant,  r(read only)
+//use const whenever possible.
+//only use let if variable needs to change
+
 
 const daysInWeek = 7;
 const maxNumber = 5;
+
+// Note!
+// Immutable data types: primitive types, fozen objects(i.e. object.freeze())
+// Mutable data types: all objects by default are mutable in JS
+// favor immutable data type always for a few reasons
+// - security
+// - thread safety
+// - reduce human mistakes
 
 //4. variable types
 //primitive type -> single item: number, string, boolean, null, undefiedn, symbol
@@ -45,7 +52,7 @@ console.log(infinity);
 console.log(negativeInfinity);
 console.log(nAn);
 
-//bifInt (fairly new, don't use it yet)
+//bigInt (fairly new, don't use it yet)
 const bigInt = 123456789012345678901234567890n; // over (-2*53 ~ 2*53)
 console.log(`value: ${bigInt}, type: ${typeof bigInt}`);
 Number.MAX_SAFE_INTEGER;
@@ -89,6 +96,7 @@ console.log(`value: ${symbol1.description}, type: ${typeof symbol1}`)
 const ellie = {name: `ellie`, age: 20};
 ellie.age = 21;
 console.log(`value: ${ellie}, type: ${typeof ellie}`);
+
 //5. Dynamic typing: dynamically typed language
 // 프로그램이 동작할 때 할당 된 값에 따라 타입이 결정됨
 let text = `hello`;

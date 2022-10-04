@@ -50,7 +50,7 @@ console.log(10 <= 6); //less than or equal
 console.log(10 > 6); // greater than
 console.log(10 >= 6); // greater than or equal
 
-//6. Lofical operators: || (or) , && (and) , !(not)
+//6. Logical operators: || (or) , && (and) , !(not)
 const value1 = false;
 const value2 = 4 < 2;
 
@@ -65,7 +65,7 @@ function check(){
     return true;
 }
 
-// &&(and) , finds the first truthy value
+// &&(and) , finds the first false value
 console.log(`or: ${value1 && value2 && check()}`)
 
 //often used to compress long if-statement

@@ -104,3 +104,4 @@ const fruit2 = {color: `blue`, size: `big`};
 const mixed = Object.assign({}, fruit1, fruit2); // 앞에 뒤와 같은property가 있다면 뒤의 값을 덮어 씌움
 console.log(mixed.color);
 console.log(mixed.size);
+
